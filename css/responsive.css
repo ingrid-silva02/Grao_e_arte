@@ -1,0 +1,35 @@
+/* TABLET */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .section-coffee__content {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+    }
+
+    .section-coffee__container {
+        padding: 30px 20px;
+    }
+}
+
+/* CELULAR */
+@media (max-width: 768px) {
+    .section-coffee__content {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .section-coffee__container {
+        padding: 24px 16px;
+    }
+
+    .section-coffee__content > div {
+        padding: 18px;
+    }
+
+    .section-coffee__title {
+        font-size: 22px;
+    }
+
+    .section-coffee__text {
+        font-size: 16px;
+    }
+}
