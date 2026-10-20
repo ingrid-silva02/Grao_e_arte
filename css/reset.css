@@ -8,3 +8,31 @@
 ul, ol {
   list-style: none;
 }
+
+body {
+  font-family: var(--font-main);
+  color: var(--color-text-body);
+  background-color: var(--color-bg-main);
+}
+
+h1,
+h2,
+h3,
+.header__title {
+font-family: var(--font-title);
+color: var(--color-primary);
+}
+/* h1, h2, h3,
+.header__title, .section-coffee__title, .faq__title {
+  font-family: var(--font-title);
+  color: var(--color-primary);
+  line-height: 1.25;
+} */
+
+h1 { font-size: 4rem;
+   margin-bottom: 2rem; }
+h2 { font-size: 3.2rem;
+   margin-bottom: 2rem; }
+h3 { font-size: 2rem;
+   margin-bottom: .8rem; }
+p { margin-bottom: 1.5rem; }
